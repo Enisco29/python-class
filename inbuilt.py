@@ -22,11 +22,43 @@ import math
 
 # print(c)
 
-age = int(input("What is your age: "))
+# age = int(input("What is your age: "))
 
-if age >= 18: 
-    print("You can enter")
-elif age < 0:
-    print("Stop fucking lying")
-else:
-    print("Fuck off")
+# if age >= 18: 
+#     print("You can enter")
+# elif age < 0:
+#     print("Stop fucking lying")
+# else:
+#     print("Fuck off")
+
+# temp = 25
+# is_rating = True
+
+# if temp > 35 or temp < 0 or is_rating:
+#     print("The outdoor event is cancelled")
+# else: 
+#     print("The outdoor event is still scheduled")
+
+# num = 5
+
+# print("Positive" if num > 8 else "Negative")
+
+# name = input("Your name: ")
+
+# name = name.isalpha()
+
+# print(name)
+
+# print(help(str))
+
+# user_input = input("What is your username: ")
+
+# if len(user_input) > 12:
+#      print("Username can't be more than 12")
+# elif not user_input.find(" ") == -1:
+#      print("Username can't contain space")
+# elif not user_input.isalpha():
+#     print("Username should be aplabet")
+# else:
+#      print(f"Your username is {user_input}")
+    
