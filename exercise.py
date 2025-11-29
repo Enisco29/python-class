@@ -15,12 +15,26 @@
 # print(f"{noun1} was {adjective2} and {verb1}")
 # print(f"I was {adjective3}")
 
-x = 3.14
-y = 4
-z = 5
+# x = 3.14
+# y = 4
+# z = 5
 
 # result = round(x)
 # result = abs(y)
-result = pow(2, 3)
+# result = pow(2, 3)
 
-print(result)
+# print(result)
+
+capitals = {
+            "USA": "LA",
+            "India": "New Dehli",
+            "China": "Beijing"
+            }
+
+# print(capitals.get("US"))
+# capitals.update({"germany": "Berlin"})
+
+items = capitals.items()
+
+for key, vlaue in items:
+    print(f"{key}: {vlaue}")

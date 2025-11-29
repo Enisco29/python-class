@@ -21,12 +21,12 @@
 #         print(symbol, end="")
 #     print()    
 
-fruits = ["apple", "orange", "banana", "coconut"]
+# fruits = ["apple", "orange", "banana", "coconut"]
 
-fruits.append("pineapple")
-fruits.insert(0, "mango")
+# fruits.append("pineapple")
+# fruits.insert(0, "mango")
 
-print(fruits)
+# print(fruits)
 
 # print(dir(fruits))
 
@@ -37,3 +37,18 @@ print(fruits)
 
 # for x in fruits:
 #     print(x)
+
+import random
+
+low = 1
+high = 100
+options = ("rock", "paper", "scissor")
+cards = ["2", "3", "4", "k", "j"]
+
+# number = random.randint(low, high)
+# number = random.random()
+# option = random.choice(options)
+random.shuffle(cards)
+
+
+print(cards)
