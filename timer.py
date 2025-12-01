@@ -52,3 +52,18 @@ random.shuffle(cards)
 
 
 print(cards)
+
+import type_casting
+
+result = type_casting.pi
+
+print(result)
+
+def func1():
+    x = 1
+    def func2():
+        print(x)
+    func2()
+
+
+func1() 

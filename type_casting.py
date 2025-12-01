@@ -44,3 +44,6 @@ def is_week(dat):
     match(dat):
         case "lol":
             return True
+        
+
+pi = 3.142
