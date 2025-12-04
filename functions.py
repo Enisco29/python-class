@@ -24,9 +24,9 @@
 
 # print("1", "2", "3", sep="-")
 
-def get_phone(country, area, first, last):
-    return f"{country}-{area}-{first}-{last}"
+# def get_phone(country, area, first, last):
+#     return f"{country}-{area}-{first}-{last}"
 
-phone_num = get_phone(country=234, area=704, first=4357, last=1913)
+# phone_num = get_phone(country=234, area=704, first=4357, last=1913)
 
-print(phone_num)
+# print(phone_num)

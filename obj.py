@@ -30,32 +30,66 @@
 # print(student1.age)
 # print(Student.class_year)
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
-        self.is_alive = True
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+#         self.is_alive = True
         
-    def eat(self):
-        print(f"{self.name} is eating")
+#     def eat(self):
+#         print(f"{self.name} is eating")
         
-    def sleep(self):
-        print(f"{self.name} is sleeping")
+#     def sleep(self):
+#         print(f"{self.name} is sleeping")
         
-class Dog(Animal):
-    def speak(self):
-        print("woof!!")
+# class Dog(Animal):
+#     def speak(self):
+#         print("woof!!")
 
-class Cat(Animal):
-    pass
+# class Cat(Animal):
+#     pass
 
-class Mouse(Animal):
-    pass
+# class Mouse(Animal):
+#     pass
 
-dog = Dog("Scooby")
-cat = Dog("Garfield")
-mouse = Dog("Mickey")
+# dog = Dog("Scooby")
+# cat = Dog("Garfield")
+# mouse = Dog("Mickey")
 
-print(dog.name)
-print(dog.is_alive)
-dog.eat()
-dog.speak()
+# print(dog.name)
+# print(dog.is_alive)
+# dog.eat()
+# dog.speak()
+
+# class Animal:
+    
+#     def __init__(self, name):
+#         self.name = name
+    
+#     def eat(self):
+#         print(f"{self.name} is eating")
+        
+#     def sleep(self):
+#         print(f"{self.name} is sleeping")
+
+# class Prey(Animal):
+#     def flee(self):
+#         print(f"{self.name} is fleeing")
+
+# class Predator(Animal):
+#     def hunt(self):
+#         print(f"{self.name} is hunting")
+
+# class Rabbit(Prey):
+#     pass
+
+# class Hawk(Predator):
+#     pass
+
+# class Fish(Prey, Predator):
+#     pass
+
+# rabbit = Rabbit("Bugs")
+# hawk = Hawk("Tony")
+# fish = Fish("Leo")
+
+# rabbit.sleep()
