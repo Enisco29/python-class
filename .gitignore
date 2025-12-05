@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Byte-compiled
+*.so
+
+# Logs
+*.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
